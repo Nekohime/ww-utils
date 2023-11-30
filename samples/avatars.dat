@@ -1,0 +1,433 @@
+# animation registry version 0.3
+version 3                               # keep this around
+
+# Movement
+#walk=shanub01
+#run=
+#jump=
+
+# Gravity
+# Plays when falling for ~1s
+#fall=qfall1s
+
+# Fly
+#fly=qfly2
+# Idling while flying
+#hover=qhover1
+
+# Swim
+#swim=qswim
+# Idling while underwater
+#float=qfloat
+
+# Idle
+# Just stopped moving.
+#idle=hotep02
+# Plays when Idle is over
+#wait=hotep02
+# Plays when Wait is over, then loops back to wait.
+#endwait=shwaiten
+
+# Misc
+# Bug: 3.6 (b568) doesn't play this one
+#warp=
+
+avatar
+  name=MsTourist (Village)
+  geometry=v3d-av-touristf.rwx
+  beginimp
+    walk=shanub01
+    #run=
+    #jump=
+    fall=qfall1s
+    fly=qfly2
+    hover=qhover1
+    swim=qswim
+    float=qfloat
+    idle=hotep02
+    wait=hotep02
+    endwait=haadjust
+    #warp=
+  endimp
+  beginexp
+    turn=qturn
+    wave=hotep05
+    wave2=qwave
+    wave3=swave
+    macarena=maca
+    egyptian=dance-egyptian
+    dance=hedance
+    #camera=haadjust
+    happy=qhappyf
+    happy2=qhappym
+    happy3=bahappyf
+    happy4=bahappy
+    happy5=buhappy
+    happy6=drhappyf
+    happy7=hahappy
+    happy8=hehappy
+    happy9=lmhappy
+    happy10=qjump
+    argh=qangrym
+    angry=qangryf
+    fight=qfightm
+    tantrum=willy04
+    sit=lwwaiten
+  endexp
+endavatar
+
+avatar
+  name=MrTourist (Village)
+  geometry=v3d-av-touristm.rwx
+  beginimp
+    walk=swalk
+    #run=
+    #jump=
+    fall=qfall1s
+    fly=qfly2
+    hover=qhover1
+    swim=qswim
+    float=qfloat
+    idle=gray02
+    wait=gray02
+    endwait=gray07
+    #warp=
+  endimp
+  beginexp
+    turn=qturn
+    wave=hotep05
+    wave 2=qwave
+    macarena=maca
+    egyptian=dance-egyptian
+    camera=haadjust
+    happy=qhappyf
+    happy2=qhappym
+    happy3=bahappyf
+    happy4=bahappy
+    happy5=buhappy
+    happy6=drhappyf
+    happy7=hahappy
+    happy8=hehappy
+    happy9=lmhappy
+    jump=qjump
+    angry=qangrym
+    fight=qfightm
+    tantrum=willy04
+    argh=helmut04
+  endexp
+endavatar
+
+avatar
+  name=-----Animals-----
+  geometry=aw-unknown.rwx
+endavatar
+
+avatar
+  name=Cat
+  geometry=v3d-av-cat.rwx
+endavatar
+
+avatar
+  name=Fox
+  geometry=neko-av-lp-fox1.rwx
+endavatar
+
+avatar
+name=Bnuuy
+geometry=v3d-av-bunny.rwx
+endavatar
+
+avatar
+name=Humanoid Bnuuy
+geometry=v3d-av-bunny1a.rwx
+endavatar
+
+avatar
+  name=Angel Bnuuy
+  geometry=v3d-av-bunny1b.rwx
+endavatar
+
+avatar
+name=Devil Bnuuy
+geometry=v3d-av-bunny1c.rwx
+endavatar
+
+avatar
+name=Pluton
+geometry=v3d-av-pluton.rwx
+endavatar
+
+avatar
+name=Panda
+geometry=v3d-av-panda.rwx
+endavatar
+
+avatar
+name=Chicken
+geometry=v3d-av-chicken.rwx
+endavatar
+
+avatar
+name=Unicorn
+geometry=jer-av-unicorn.rwx
+endavatar
+
+avatar
+name=Pegasus
+geometry=jer-av-pegasus.rwx
+endavatar
+
+avatar
+name=Wolf
+geometry=jer-av-wolf.rwx
+endavatar
+
+avatar
+  name=Bird
+  geometry=v3d-av-bird.rwx
+endavatar
+
+avatar
+  name=Pig 1
+  geometry=v3d-av-pig1.rwx
+endavatar
+
+avatar
+  name=Pig 2
+  geometry=v3d-av-pig1a.rwx
+endavatar
+
+avatar
+  name=Pig 3
+  geometry=v3d-av-pig1b.rwx
+endavatar
+
+avatar
+  name=Pig 4
+  geometry=v3d-av-pig1c.rwx
+endavatar
+
+avatar
+  name=Bigfoot
+  geometry=v3d-av-bigfoot.rwx
+endavatar
+
+avatar
+  name=-----Humans-----
+  geometry=aw-unknown.rwx
+endavatar
+
+avatar
+  name=Surfgirl
+  geometry=v3d-av-surfgirl.rwx
+endavatar
+
+avatar
+  name=Francine
+  geometry=v3d-av-francine.rwx
+endavatar
+
+avatar
+  name=Emerald
+  geometry=v3d-av-emerald.rwx
+endavatar
+
+avatar
+  name=Rose
+  geometry=v3d-av-rose.rwx
+endavatar
+
+avatar
+  name=Nospheratus
+  geometry=v3d-av-nospheratus.rwx
+endavatar
+
+avatar
+  name=Noella
+  geometry=v3d-av-noella.rwx
+endavatar
+
+avatar
+  name=MIB 1
+  geometry=v3d-av-mib1.rwx
+endavatar
+
+avatar
+  name=MIB 2
+  geometry=v3d-av-mib2.rwx
+endavatar
+
+avatar
+  name=Builder
+  geometry=v3d-av-builder.rwx
+endavatar
+
+avatar
+  name=Bitmaster
+  geometry=v3d-av-bitmaster.rwx
+endavatar
+
+avatar
+  name=Astronaut (F)
+  geometry=v3d-av-astronautf.rwx
+endavatar
+
+avatar
+  name=Astronaut (M)
+  geometry=v3d-av-astronautm.rwx
+endavatar
+
+avatar
+  name=Angel
+  geometry=v3d-av-angel.rwx
+endavatar
+
+avatar
+  name=Bicycle Girl
+  geometry=v3d-av-bicycle-girl.rwx
+endavatar
+
+avatar
+  name=Antoine
+  geometry=v3d-av-antoine.rwx
+endavatar
+
+avatar
+  name=Alain
+  geometry=v3d-av-alain.rwx
+endavatar
+
+
+avatar
+  name=Bigman
+  geometry=v3d-av-bigman.rwx
+endavatar
+
+avatar
+  name=-----Vehicles-----
+  geometry=aw-unknown.rwx
+endavatar
+
+avatar
+  name='67 Camaro
+  geometry=v3d-av-67camaro.rwx
+endavatar
+
+avatar
+  name='67 Shelby
+  geometry=cdv-av-67shelby.rwx
+endavatar
+
+avatar
+  name='95 Pickup
+  geometry=cdv-av-95pickup.rwx
+endavatar
+
+avatar
+  name=Copcar
+  geometry=v3d-av-copcar.rwx
+endavatar
+
+avatar
+  name=Spaceship
+  geometry=v3d-av-spaceship.rwx
+endavatar
+
+avatar
+  name=K9
+  geometry=v3d-av-k9.rwx
+endavatar
+
+avatar
+  name=Taxi
+  geometry=v3d-av-taxi.rwx
+endavatar
+
+avatar
+  name=Wolfpack
+  geometry=v3d-av-wolfpack.rwx
+endavatar
+
+
+
+avatar
+  name=-----Misc-----
+  geometry=aw-unknown.rwx
+endavatar
+
+avatar
+  name=Pingirl
+  geometry=v3d-av-pingirl.rwx
+endavatar
+
+avatar
+  name=Pingoo
+  geometry=v3d-av-pingoo.rwx
+endavatar
+
+avatar
+  name=Noots
+  geometry=v3d-av-noots2.rwx
+  beginimp
+    walk=swalk
+    wait=gray02
+    endwait=gray07
+    endwave=gray06
+  endimp
+  beginexp
+    danse=hedance
+    macarena=maca1
+    prise-de-tete=helmut04
+    slam=willy04
+    halu=qdance1
+    egyptienne=ken03
+    salut=hotep05
+    bisou=mbisou
+    Assis=lwwaiten
+    Retourner=qturn
+  endexp
+endavatar
+
+avatar
+  name=War Armour
+  geometry=v3d-av-war1a.rwx
+  beginimp
+    walk=buwalk
+    wait=buwait
+    endwait=buwaiten
+  endimp
+  beginexp
+    angry=buangry
+    happy=buhappy
+    look=bulook
+    maca=maca1
+    point=bupoint
+    shove=bupunch
+    wave=buwave
+    bisou=mbisou
+    Assis=lwwaiten
+    Retourner=qturn
+  endexp
+endavatar
+
+avatar
+  name=War Armour 2
+  geometry=v3d-av-war1b.rwx
+endavatar
+
+avatar
+  name=Zork
+  geometry=awt-av-zork.rwx
+endavatar
+
+
+
+avatar
+  name=Snowman
+  geometry=v3d-av-snowman.rwx
+endavatar
+
+avatar
+  name=Tree
+  geometry=v3d-av-tree.rwx
+endavatar

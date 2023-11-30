@@ -1,0 +1,20 @@
+{
+  "name": "avatar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "avparser": "node avdatparser.js",
+    "lint": "eslint main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^9.18.1"
+  },
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^46.9.0"
+  }
+}
