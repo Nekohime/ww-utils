@@ -1,6 +1,7 @@
 const fs = require('fs');
 
-const isValidLine = line => !line || !line[0].match(/[a-zA-Z]/) ? false : true;
+const isValidLine =
+    (line) => !line || !line[0].match(/[a-zA-Z]/) ? false : true;
 
 /**
  * Represents an avatar with various properties.
@@ -27,7 +28,7 @@ class AvatarList {
 class AvatarListReader {
   /**
    * Initializes a new instance of the AvatarList class.
-   * @param {string} input - The input string containing avatar configuration data.
+   * @param {string} input - The input string containing an avatar.dat line.
    * @constructor
    */
   constructor(input) {
@@ -64,7 +65,8 @@ class AvatarListReader {
 
   /**
    * Reads key-value pairs until an end marker is encountered.
-   * @param {string} end - The end marker that signals the end of the key-value list.
+   * @param {string} end - The end marker that signals
+   *  the end of the key-value list.
    * @return {Object} - The key-value pairs read from the input.
    */
   parseKeyValueList(end) {
@@ -90,7 +92,8 @@ class AvatarListReader {
 
   /**
    * Reads an entire avatar block.
-   * @return {Avatar|null} - The parsed avatar object or null if the avatar is invalid.
+   * @return {Avatar|null} - The parsed avatar object,
+   *  or null if the avatar is invalid.
    */
   readAvatar() {
     /** @type {Avatar} */
@@ -140,7 +143,9 @@ function mapAvatar({name, model, implicitAnimations, explicitAnimations}) {
 try {
   // Check if a file path is provided as a command-line argument
   if (process.argv.length < 3) {
-    throw new Error('Please provide the input file as a command-line argument.');
+    throw new Error(
+        'Please provide the input file as a command-line argument.',
+    );
   }
 
   // Read input data from a file

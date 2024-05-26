@@ -5,17 +5,17 @@
   "main": "main.js",
   "scripts": {
     "avparser": "node avdatparser.js avatars.dat",
-    "lint": "eslint main.js"
+    "lint": "eslint **/*.js --fix"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.54.0",
+    "eslint": "^8.57.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-vue": "^9.18.1"
+    "eslint-plugin-vue": "^9.26.0",
+    "eslint-plugin-jsdoc": "^46.9.0"
   },
   "dependencies": {
-    "eslint-plugin-jsdoc": "^46.9.0",
     "sqlite3": "^5.1.7"
   }
 }
