@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "avparser": "node avdatparser.js avatars.dat",
     "lint": "eslint **/*.js --fix"

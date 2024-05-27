@@ -1,4 +1,6 @@
-const fs = require('fs');
+#!/usr/bin/env node
+
+import * as fs from 'fs';
 
 const isValidLine =
     (line) => !line || !line[0].match(/[a-zA-Z]/) ? false : true;
@@ -19,7 +21,6 @@ class AvatarList {
     this.explicitAnimations = {};
   }
 }
-
 
 /**
  * Reads avatar data from a given input string.
@@ -144,7 +145,8 @@ try {
   // Check if a file path is provided as a command-line argument
   if (process.argv.length < 3) {
     throw new Error(
-        'Please provide the input file as a command-line argument.',
+        'Please provide the input file as a command-line argument. ' +
+        'Example: ./avdatparser.js samples/avatars.dat',
     );
   }
 
